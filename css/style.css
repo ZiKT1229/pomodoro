@@ -1,0 +1,71 @@
+body {
+  background: #000000;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 1280px;
+  height: 800px;
+}
+
+.main-wrapper {
+  width: 1280px;
+  height: 800px;
+  display: flex;
+}
+
+.content-wrapper {
+  width: 445px;
+  height: 800px;
+  position: relative;
+  left: 85px;
+}
+
+.clock {
+  width: 540px;
+  height: 540px;
+  border-radius: 100%;
+  position: relative;
+  left: 115px;
+  top: 130px;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.play-btn {
+  border: 0;
+  border-radius: 100%;
+  width: 96px;
+  height: 96px;
+  background: url(../images/play_arrow.png) no-repeat center;
+  background-size: 100%;
+}
+
+.aside-wrapper {
+  width: 450px;
+  height: 800px;
+  position: relative;
+  top: -800px;
+  left: 830px;
+}
+
+.nav-wrapper {
+  width: 36px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 329px;
+}
+
+.title {
+  margin: 0;
+  writing-mode: vertical-rl;
+  text-align: center;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+}
