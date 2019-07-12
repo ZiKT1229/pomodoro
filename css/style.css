@@ -20,6 +20,41 @@ body {
   height: 800px;
   position: relative;
   left: 85px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.content {
+  width: 100%;
+}
+
+#mission {
+  display: block;
+  width: 100%;
+  height: 56px;
+  border: 0;
+  font-size: 16px;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+::placeholder {
+  color: #FF4384;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.doing {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.time {
+  font-size: 176px;
+  font-weight: bold;
+  text-align: center;
 }
 
 .clock {
@@ -35,13 +70,29 @@ body {
   align-items: center;
 }
 
-.play-btn {
+.todolist {
+  list-style: georgian;
+}
+
+.todo {
+  font-size: 24px;
+}
+
+.btn {
   border: 0;
   border-radius: 100%;
   width: 96px;
   height: 96px;
-  background: url(../images/play_arrow.png) no-repeat center;
+  cursor: pointer;
   background-size: 100%;
+}
+
+.play {
+  background: url(../images/play_arrow.png) no-repeat center;
+}
+
+.pause {
+  background: url(../images/pause-button.png) no-repeat center;
 }
 
 .aside-wrapper {
@@ -56,6 +107,7 @@ body {
   width: 36px;
   height: 800px;
   display: flex;
+  justify-content: center;
   flex-direction: column;
   position: relative;
   left: 329px;
