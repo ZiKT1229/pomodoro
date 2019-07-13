@@ -3,7 +3,8 @@ import Pomodoro from './Pomodoro.js';
 
 class App {
   constructor() {
-
+    this.todolist = new Todolist();
+    this.pomodoro = new Pomodoro();
   }
 }
 
